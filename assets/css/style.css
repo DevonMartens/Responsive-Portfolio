@@ -75,13 +75,13 @@ body {
 }
 
 #contact {
- 
+  float: right;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #777777;
 	background-color: #ffffff;
   align-self: left;
   padding: 25px 30px 10px 30px;
- float: top;
+
 }
 
 #userName {
@@ -133,7 +133,7 @@ body {
     font-family: 'Lora', serif;
   }
   .container3 {
-    position: relative; top: -290px; left: 700px;
+    position: absolute; top: -290px; left: 700px;
 
   }
   
@@ -234,6 +234,7 @@ color: white;
 }
 
 .clearfox {
+  position: static;
 	border-bottom: 8px solid #cccccc;
 	height: 100px;
     background-color: #ffffff;
@@ -376,7 +377,6 @@ links {right: 10px;
       }
       
       #contact {
-        float: right;
         padding: 25px 5px 10px 5px;
       }
 
