@@ -5,6 +5,7 @@
       <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
       <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
    </head>
+   <body background= "assets/images/yellowstone.jpg"></body>
    <header class="clearfox">
       <a id="userName">Devon Martens</a>
         <span></span>
@@ -18,38 +19,36 @@
       </links>
     </div>
 </header>
-<body background= "assets/images/yellowstone.jpg">
-      <br>
-      <div class="wrapper">
-      <div class="container">
+
+   
          <article class="section1">
             <div>
                <h2>Contact Me</h2>
-            
-               <hr>
             </div>
-            <section id="box1">
-<form action="dmmartens91@gmail.com" method="post" enctype="text/plain"> <br>
-Name:
-<input type="text" name="name" id="name"/>
-
-E-mail:
-<input type="text" name="mail" id="email"/>
-Message:<br>
-<input type="text" name="comment" size="100" id="message"/>
-
-
-<input type="button" value="Submit" id="BUTT"/>
-
-
-
-
-<br>
-<br>
+               <hr>
+                  <form id="contact-form">
+                        <ul>
+                          <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required="required">
+                          </li>
+                          <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="YourEmail@YourDomain.com" required="required">
+                          </li>
+                          <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                          </li>
+                        </ul>
+                        <input type="submit">
+                      </form>
+                     </article>
+             
 <div class="wrapper">
 <div class="container">
 <footer class="clearfix">&copy;2019 Devon Martens</footer>
-</div class="wrapper">
-</div class="container">
+</div>
+</div>
 </body>
 </html>
